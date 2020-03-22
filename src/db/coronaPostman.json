@@ -1,0 +1,228 @@
+{
+    "info": {
+        "_postman_id": "88774f08-f670-4c0f-9fed-a2da8e9a0e1a",
+        "name": "Corona",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "All Data",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.covid19api.com/all",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "all"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Countries",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.covid19api.com/countries",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "countries"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "DayOne",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.covid19api.com/dayone/country/united-kingdom/status/confirmed",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "dayone",
+                        "country",
+                        "united-kingdom",
+                        "status",
+                        "confirmed"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "DayOne Total",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Origin",
+                        "value": "https://localhost.com",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "https://api.covid19api.com/total/dayone/country/south-africa/status/confirmed",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "total",
+                        "dayone",
+                        "country",
+                        "south-africa",
+                        "status",
+                        "confirmed"
+                    ],
+                    "query": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "By Country",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.covid19api.com/country/spain/status/confirmed",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "country",
+                        "spain",
+                        "status",
+                        "confirmed"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "By Country Total",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.covid19api.com/total/country/us/status/confirmed",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "total",
+                        "country",
+                        "us",
+                        "status",
+                        "confirmed"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Stats",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Origin",
+                        "value": "http://localhost",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "https://api.covid19api.com/stats",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "stats"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Summary",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.covid19api.com/summary",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "summary"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Webhook",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"URL\":\"https://wh.ksred.me\"}"
+                },
+                "url": {
+                    "raw": "https://api.covid19api.com/webhook",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "covid19api",
+                        "com"
+                    ],
+                    "path": [
+                        "webhook"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ],
+    "protocolProfileBehavior": {}
+}

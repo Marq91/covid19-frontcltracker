@@ -1,0 +1,115 @@
+[
+    {
+        "id": "0",
+        "region": "Arica",
+        "totalCases": 1,
+        "lat": -18.4745998,
+        "long": -70.29792
+    },
+    {
+        "id": "1",
+        "region": "Tarapaca",
+        "totalCases": 5,
+        "lat": -20.2132607,
+        "long": -70.1502686
+    },
+    {
+        "id": "2",
+        "region": "Antofagasta",
+        "totalCases": 6,
+        "lat": -23.6523609,
+        "long": -70.395401
+    },
+    {
+        "id": "3",
+        "region": "Atacama",
+        "totalCases": 1,
+        "lat": -27.3664,
+        "long": -70.3331
+    },
+    {
+        "id": "4",
+        "region": "Coquimbo",
+        "totalCases": 3,
+        "lat": -30.7500000,
+        "long": -71.0000000
+    },
+    {
+        "id": "5",
+        "region": "Valparaíso",
+        "totalCases": 5,
+        "lat": -33.0359993,
+        "long": -71.629631
+    },
+    {
+        "id": "6",
+        "region": "Metropolitana",
+        "totalCases": 304,
+        "lat": -33.4726900,
+        "long": -70.6472400
+    },
+    {
+        "id": "7",
+        "region": "O’Higgins",
+        "totalCases": 6,
+        "lat": -34.0686302,
+        "long": -70.7274704
+    },
+    {
+        "id": "8",
+        "region": "Maule",
+        "totalCases": 14,
+        "lat": -35.4263992,
+        "long": -71.6554184
+    },
+    {
+        "id": "9",
+        "region": "Ñuble",
+        "totalCases": 44,
+        "lat": -36.8981,
+        "long": -72.0264
+    },
+    {
+        "id": "10",
+        "region": "Biobío",
+        "totalCases": 19,
+        "lat": -37.0000000,
+        "long": -72.5000000
+    },
+    {
+        "id": "11",
+        "region": "Araucanía",
+        "totalCases": 9,
+        "lat": -38.7333,
+        "long": -72.6667
+    },
+    {
+        "id": "12",
+        "region": "Los Ríos",
+        "totalCases": 1,
+        "lat": -40.293129,
+        "long": -73.0816727
+    },
+    {
+        "id": "13",
+        "region": "Los Lagos",
+        "totalCases": 18,
+        "lat": -41.7500000,
+        "long": -73.0000000
+    },
+    {
+        "id": "14",
+        "region": "Aysén",
+        "totalCases": 1,
+        "lat": -45.9886900,
+        "long": -73.7734800
+    },
+    {
+        "id": "15",
+        "region": "Magallanes",
+        "totalCases": 2,
+        "lat": -53.1548309,
+        "long": -70.911293
+    }
+    
+]
